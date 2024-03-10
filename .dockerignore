@@ -1,0 +1,6 @@
+**
+!src
+!src/**
+!poetry.lock
+!pyproject.toml
+!certs.crt

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rinha-2024-q1-python"
+version = "0.1.0"
+description = "Projeto desafio para a Rinha de Backend 2024 Q1 - Crébitos"
+authors = ["Tony Jedson Beserra Carvalho <tony.carvalho1994@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.3"
+asyncpg = "^0.29.0"
+fastapi = "^0.110.0"
+pydantic-settings = "^2.2.1"
+uvicorn = "^0.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
